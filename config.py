@@ -42,7 +42,7 @@ RAILWAY_PUBLIC_URL = os.environ.get(
     'RAILWAY_STATIC_URL')  # Check if Railway provides this
 
 # !!! IMPORTANT: Set this MANUALLY after your first Railway deploy if RAILWAY_STATIC_URL is not available !!!
-MANUAL_WEBHOOK_HOST = "PASTE_YOUR_RAILWAY_APP_URL_HERE"  # e.g., "https://mybot-prod.up.railway.app"
+MANUAL_WEBHOOK_HOST = "tgbot-production-ce54.up.railway.app"  # e.g., "https://mybot-prod.up.railway.app"
 
 if RAILWAY_PUBLIC_URL:
      WEBHOOK_HOST = RAILWAY_PUBLIC_URL
